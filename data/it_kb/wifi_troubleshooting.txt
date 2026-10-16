@@ -1,0 +1,15 @@
+Wi-Fi Troubleshooting
+
+Network: COMP-CORP (employees), COMP-GUEST (visitors)
+
+Common issues:
+1. Can't see COMP-CORP.
+   - Forget the network and rejoin. Enter SSO credentials.
+2. Connected but no internet.
+   - Open a browser; the captive portal may need you to accept terms.
+3. Slow speed.
+   - Switch to the 5 GHz SSID: COMP-CORP-5G.
+4. Certificate error on first connect.
+   - Accept the certificate; it's the internal CA.
+
+If problems persist, raise a ticket with category=Network.

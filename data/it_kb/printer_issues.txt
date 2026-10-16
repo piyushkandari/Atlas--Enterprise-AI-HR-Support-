@@ -1,0 +1,16 @@
+Printer Troubleshooting
+
+Common problems:
+1. Printer not visible on the network.
+   - Confirm you're on office Wi-Fi, not VPN.
+   - Restart the print spooler:
+     Windows: services.msc -> Print Spooler -> Restart.
+2. Print jobs stuck in queue.
+   - Open Printers & Scanners -> open the queue -> cancel all -> retry.
+3. "Access denied" when printing to a shared printer.
+   - You need to be a member of the "Office-Printers" AD group.
+   - Raise a ticket with category=Hardware and mention the printer name.
+
+Escalation:
+If none of the above works, raise an IT ticket. Attach a photo
+of the printer's error LED if the printer has one.

@@ -1,0 +1,16 @@
+VPN Setup Guide
+
+Applies to: All employees using company laptops (Windows / macOS / Linux)
+
+Steps:
+1. Open the company portal at https://portal.company.com.
+2. Download the GlobalConnect VPN client for your OS.
+3. Install it and launch. The server address is vpn.company.com.
+4. Sign in with your company email and SSO password.
+5. Approve the MFA push notification on your phone.
+6. Confirm status says "Connected - Bangalore-1".
+
+Troubleshooting:
+- If MFA push doesn't arrive, check that the Authenticator app is installed.
+- If you see "Server unreachable", try a different network (mobile hotspot).
+- If it still fails, raise an IT ticket with category=Network.
